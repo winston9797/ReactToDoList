@@ -1,0 +1,57 @@
+.App{
+    width: 500px;
+    min-height: 500px;
+    background-color:#3498db;
+    color: #ecf0f1;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px
+}
+h1,p{
+  margin: 10px 0;
+}
+.checked{
+  text-decoration: line-through;
+  display: inline-block;
+}
+input[type=text] {
+  width: 80%;
+  padding: 7px;
+  font-size: 22px;
+  color:#7f8c8d;
+}
+li{
+  padding: 10px 0;
+  border-top: 1px solid #a3d4f577;
+  border-bottom: 1px solid #a3d4f577;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: left;
+}
+li input{
+  padding: 20px;
+  margin: 0 20px;
+}
+.submitButton{
+  color: #fff;
+  background:#2c3e50;
+  padding: 15px 12px;
+  border: 0;
+  margin: 10PX 0;
+}
+.clearButton{
+  color: #fff;
+  background:#c0392b;
+  padding: 15px 12px;
+  border: 0;
+  margin: 10PX 0;
+  width: 100%;
+}
+.removeBtn{
+  width: 25px;
+  height: 25px;
+  background-color: #e74c3c;
+  border: 0;
+  float: right;
+}
